@@ -47,6 +47,8 @@ resetBtn.addEventListener("click",function () {
         colors = generateColors(numofsquares);
         pickedcolor = pickColor();
         colorDisplay.textContent = pickedcolor;
+        message.textContent = "";
+        this.textContent = "New Colors";
     for (var i = 0; i< squares.length; i++){
         squares[i].style.backgroundColor = colors[i];
     }
